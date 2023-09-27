@@ -22,9 +22,9 @@ for (i in 1:500) {
 cat('news url scraped')
 save.image('yjc.RData')
 
-news2 <- news[20314:50000]
+# news2 <- news[20314:50000]
 j <- 0L
-for(n in news2){
+for(n in news){ 
   cond <<- T
   while (cond) {
     tryCatch(
